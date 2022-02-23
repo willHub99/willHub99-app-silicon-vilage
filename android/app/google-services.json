@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "536191144042",
+    "project_id": "app-silicon-vilage",
+    "storage_bucket": "app-silicon-vilage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536191144042:android:8925158203a856d1f8ba13",
+        "android_client_info": {
+          "package_name": "com.example.app_silicon_vilage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536191144042-b5fsf4mvjvdlnjib3ajj72gj4a4lgnjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQr1bJ5QeDNW7Y2UAPH_pEU4AfD0ZAk6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536191144042-b5fsf4mvjvdlnjib3ajj72gj4a4lgnjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
