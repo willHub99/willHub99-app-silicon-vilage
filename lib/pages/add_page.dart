@@ -22,7 +22,7 @@ class _AddPageState extends State<AddPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text('App SiliconVilage')),
+        title: Center(child: Text('App SiliconVillage')),
       ),
       body: Center(
         child: _widgetOptions.elementAt(index),
