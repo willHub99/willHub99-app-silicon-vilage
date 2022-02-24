@@ -5,7 +5,7 @@ App proposto pela empresa Silicon Vilage, consiste em duas telas onde
 a primeira tem como funcionalidade um campo de texto onde o usuário insere 
 um número, onde o mesmo é salvo no firebase, já a segunda tela exibe os 
 números previamente inseridos na primeira tela.
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://github.com/willHub99/willHub99-app-silicon-vilage/blob/main/lib/docs/logo.png)
 
 
 ## Autores
@@ -49,21 +49,33 @@ Inicie o servidor
 
 ## Funcionalidades
 
-- Inserção de dados no Firebase
-- Leitura de dados no Firebase
+- Inserção de dados no Firebase (Cloud Firestore)
+- Leitura de dados no Firebase (Cloud Firestore)
 - Preview em tempo real
 
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+- Tela 1
+- Funcionalidade: Inserir um novo número no Cloud Firestore
 
+<p align="center">
+  <img src="https://github.com/willHub99/willHub99-app-silicon-vilage/blob/main/lib/docs/tela_add.png">
+</p>
 
+- Tela 2
+- Funcionalidade: Ler os números inseridos no Cloud Firestore pela tela 1
+
+<p align="center">
+  <img src="https://github.com/willHub99/willHub99-app-silicon-vilage/blob/main/lib/docs/tela_view.png">
+</p>
+ 
 ## Demonstração
 
-<video src='your URL here' width=180/>
-
+<p align="center">
+  <img src="https://github.com/willHub99/willHub99-app-silicon-vilage/blob/main/lib/docs/demonstracao_app.gif">
+</p>
 
 ## Referência
  - [Cloud Firestore | FlutterFire](https://firebase.flutter.dev/docs/firestore/usage/)
