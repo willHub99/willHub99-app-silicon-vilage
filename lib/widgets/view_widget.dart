@@ -12,7 +12,7 @@ class ViewWidget extends StatefulWidget {
 
 class _ViewWidgetState extends State<ViewWidget> {
   final Stream<QuerySnapshot> _usersStream =
-      FirebaseFirestore.instance.collection('app').snapshots();
+      FirebaseFirestore.instance.collection('app-silicon-vilage').snapshots();
 
   @override
   Widget build(BuildContext context) {
@@ -28,13 +28,15 @@ class _ViewWidgetState extends State<ViewWidget> {
         }
 
         return ListView(
+          shrinkWrap: true,
           children: snapshot.data!.docs.map((DocumentSnapshot document) {
             Map<String, dynamic> data =
                 document.data()! as Map<String, dynamic>;
-            return ListTile(
-              title: Text("Number Add "),
-              subtitle: Text(data["number"].toString()),
-            );
+            return Align(
+                alignment: Alignment.center,
+                child: Text(
+                  'Number Add: ' + data["number"].toString(),
+                ));
           }).toList(),
         );
       },

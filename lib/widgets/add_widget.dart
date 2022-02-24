@@ -15,7 +15,8 @@ class AddWidget extends StatefulWidget {
 class _AddWidgetState extends State<AddWidget> {
   TextEditingController _textEditingController = TextEditingController();
 
-  CollectionReference number = FirebaseFirestore.instance.collection('app');
+  CollectionReference number =
+      FirebaseFirestore.instance.collection('app-silicon-vilage');
 
   var value;
 
@@ -23,7 +24,8 @@ class _AddWidgetState extends State<AddWidget> {
     value = _textEditingController.text;
     _textEditingController.clear();
     return number
-        .add({'number': value})
+        .doc("TSG6nOz3ybiyGZtwcwMx")
+        .set({'number': value})
         .then((value) => print("Number Add"))
         .catchError((error) => print("Failed add Number $error"));
   }
